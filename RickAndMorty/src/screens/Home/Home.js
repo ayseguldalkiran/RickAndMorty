@@ -81,10 +81,6 @@ const Home = () => {
     console.log(characterList);
   };
 
-  let Image_Http_URL = {
-    uri: 'https://reactnativecode.com/wp-content/uploads/2017/05/react_thumb_install.png',
-  };
-
   return (
     <SafeAreaView>
       <ScrollView style={styles.container}>
@@ -149,7 +145,7 @@ const Home = () => {
             />
           </ScrollView>
         )}
-        {/* episode modal start */}
+        {/* character modal start */}
 
         <Modal
           style={styles.modal}
@@ -205,9 +201,9 @@ const Home = () => {
             </View>
           </View>
         </Modal>
-        {/* episode modal end */}
+        {/* character modal end */}
 
-        {/* character modal start */}
+        {/* episode modal start */}
         <Modal
           animationType="slide"
           style={styles.modal}
@@ -253,7 +249,7 @@ const Home = () => {
             </View>
           </View>
         </Modal>
-        {/* character modal end */}
+        {/* episode modal end */}
       </ScrollView>
     </SafeAreaView>
   );
