@@ -1,0 +1,35 @@
+{
+  "name": "RickAndMorty",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/viewpager": "^5.0.11",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-image-slider-box": "^1.1.2",
+    "react-native-modals": "^0.22.3",
+    "react-native-pager-view": "^6.0.0-rc.0",
+    "react-native-swiper": "^1.6.0-rc.3",
+    "react-router-dom": "^6.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/runtime": "^7.15.3",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
